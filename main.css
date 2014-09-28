@@ -1,0 +1,40 @@
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
+}
+
+#image
+{
+    max-height: 300px;
+}
+#title
+{
+    color: #16a085;
+    font-size: 48px;
+    font-weight: 700;
+}
+#cube
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#password
+{
+    text-align: center;
+}
+ul li
+{
+    font-size: 16px;
+    color: #7f8c8d;
+}
+#footer
+{
+    border-top: solid 1px #bdc3c7;
+    height: 50px;
+    bottom: 0;
+    margin-top: 35px;
+    padding-top: 10px;
+    
+}
