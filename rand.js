@@ -1,4 +1,3 @@
-//this part shaffles the available characters in random order evertime before a new password is generated
 function shuffle (data) {
     var a = data.split(""),
         n = a.length;
@@ -11,8 +10,6 @@ function shuffle (data) {
     }
     return a.join("");
 }
-
-//this part generates a password randomly from scarambled available characters
 
 function generate()
 {
@@ -41,4 +38,8 @@ function generate()
     $("#password").val(password);
 }
 
-
+(function(){
+var wurl = window.location.href;
+$("#tws").attr("href", "https://twitter.com/share?url=" + wurl + "&text=A simple random password generator&related=justruky");
+$("#fbs").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + wurl);
+})();
